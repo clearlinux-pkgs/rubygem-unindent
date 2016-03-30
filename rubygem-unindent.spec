@@ -4,7 +4,7 @@
 #
 Name     : rubygem-unindent
 Version  : 1.0
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/unindent-1.0.gem
 Source0  : https://rubygems.org/downloads/unindent-1.0.gem
 Summary  : No detailed summary available
@@ -56,20 +56,16 @@ pushd %{buildroot}%{gem_dir}/gems/unindent-1.0 &&  rake --trace TESTOPTS="-v" &&
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/unindent-1.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/unindent-1.0/ri/String/cdesc-String.ri
-/usr/lib64/ruby/gems/2.2.0/doc/unindent-1.0/ri/String/unindent%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/unindent-1.0/ri/String/unindent-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/unindent-1.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/LICENSE
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/Manifest
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/examples.rb
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/lib/unindent.rb
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/specs.watchr
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/test/test_helper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/test/test_unindent.rb
-/usr/lib64/ruby/gems/2.2.0/gems/unindent-1.0/unindent.gemspec
-/usr/lib64/ruby/gems/2.2.0/specifications/unindent-1.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/unindent-1.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/LICENSE
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/Manifest
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/examples.rb
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/lib/unindent.rb
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/specs.watchr
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/test/test_helper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/test/test_unindent.rb
+/usr/lib64/ruby/gems/2.3.0/gems/unindent-1.0/unindent.gemspec
+/usr/lib64/ruby/gems/2.3.0/specifications/unindent-1.0.gemspec
